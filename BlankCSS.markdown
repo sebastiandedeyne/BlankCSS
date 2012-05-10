@@ -1,6 +1,15 @@
 #BlankCSS
 
-*BlankCSS is my first dabble in to Python. It's a Sublime Text 2 plugin which converts an html page or snippet to a blank css style sheet with all class an id selectors used in the original code.*
+*BlankCSS is my first dabble in to Python. It's a Sublime Text 2 plugin which converts an html page or snippet to a blank css style sheet with all class an id selectors used in the original code. Just select whatever you want to convert and go to "Blankcss" in the edit menu or hit the keyboard shortcut.*
+
+Keyboard shortcuts:
+
+- Windows: ctrl+alt+c, ctrl+alt+s
+- Mac: super+ctrl+c, super+ctrl+s
+- Linux: super+ctrl+c, super+ctrl+s
+
+[GitHub Repo](https://github.com/sebdd/BlankCSS)
+
 
 ##License
 
