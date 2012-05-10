@@ -1,0 +1,1 @@
+BlankCSS is my first dabble in to Python. It's a Sublime Text 2 plugin which converts an html page or snippet to a blank css style sheet with all class an id selectors used in the original code.
