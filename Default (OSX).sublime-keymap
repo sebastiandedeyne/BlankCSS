@@ -1,0 +1,3 @@
+[
+	{ "keys": ["super+ctrl+c","super+ctrl+s"], "command": "blankcss" }
+]
