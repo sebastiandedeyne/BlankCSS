@@ -9,8 +9,16 @@ class BlankcssCommand(sublime_plugin.TextCommand):
 				s = re.findall(r'class="[^"]*"|id="[^"]*"', s)
 				a = []
 				for x in s:
-					if not x in a:
-						a.append(x)
+					if not " " in x:
+						if not x in a:
+							a.append(x)
+					else:
+						x = re.sub(r' +', '" class="', x)
+						x = x.split(' ')
+						for y in x:
+							if not " " in y:
+								if not y in a:
+									a.append(y)
 				s = ""
 				for x in a:
 					x = x.replace(' ', '"class="').replace('class="', ".").replace('id="', "#").replace("\"", " {\n\t\n}\n\n")
